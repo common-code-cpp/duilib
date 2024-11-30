@@ -16,6 +16,9 @@
     <Filter Include="util">
       <UniqueIdentifier>{30bf6805-26ff-42a0-9d32-6b24950f9240}</UniqueIdentifier>
     </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{d81aaabc-d273-4b9a-9cc2-e0f4ffccd14c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,6 +35,15 @@
     </ClCompile>
     <ClCompile Include="..\..\Util\ToolsFunc.cpp">
       <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>jsoncpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
